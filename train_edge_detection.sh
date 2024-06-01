@@ -1,15 +1,15 @@
 #/bin/bash
 python ./train_edge_detection.py \
  train_edge_detection.sh \
- 0,1,2,3 \
+ 0,1 \
  50 \
- /path/to/cityscapes \
- cityscapes \
- 40 \
+ /path/to/SBD \
+ SBD \
+ 10 \
  4 \
  RW \
  1 \
- 0.25 \
+ 10 \
  0.25 \
  Gini \
  edge_groundtruth_file_path \
