@@ -1,5 +1,4 @@
-# Semantic Edge Detection by Measuring Neural Representation Randomness
-
+# Category-agnostic Semantic Edge Detection by Measuring Neural Representation Randomness
 Zhiyi Pan, Peng Jiang, Qiong Zeng, Ge Li, Changhe Tu
 
 #### Abstract
