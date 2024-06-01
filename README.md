@@ -36,9 +36,9 @@ sh evaluate.sh
 
 Visual comparison for semantic edge detection on SBD.
 
-![](\Visualization\SBD.png)
+![](/Visualization/SBD.png)
 
 The edge detection sequence on the video clip of Cityscapes.
 
-![](\Visualization\video.gif)
+![](/Visualization/video.gif)
 
