@@ -9,13 +9,18 @@ Edge detection plays a fundamental role in computer vision tasks and gains wide 
 
 All the computations are carried out on NVIDIA TITAN RTX GPUs.
 
-##### environment
+##### Environment
 
 ```
 pip install -r requirements.txt
 ```
 
-##### train for neural representation extraction
+##### Datasets
+
+Semantic Boundaries Dataset (SBD) can be download at [SBD](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/semantic_contours/benchmark.tgz), Cityscapes can be download at [Cityscapes](https://www.cityscapes-dataset.com/).
+
+
+##### Train for neural representation extraction
 
 Please modify the dataset file path in **train_edge_detection.sh** and run:
 
@@ -23,7 +28,7 @@ Please modify the dataset file path in **train_edge_detection.sh** and run:
 sh train_edge_detection.sh
 ```
 
-##### evaluate by randomness based semantic edge generation
+##### Evaluate by randomness based semantic edge generation
 
 Please modify the model file path and save path in **evaluate.sh** and run: 
 
